@@ -1,0 +1,85 @@
+<template>
+    <div class="promotion" :style="{backgroundColor: colorBackground}">
+        
+            <p class="desc">{{ description }}</p>
+            <!-- <myButton class="btn" btncolor="pink" btntext="buy cat"/> -->
+            <!-- <myButton class="btn" btncolor="backgroundColor" btntext="text"></myButton> -->
+            <!-- <Button class="btn" :style="{backgroundColor: btnbgcolor}"/> -->
+            <Button/>
+        <img :src="productImages" alt="onions">
+        <!-- <Button class="buton" :btnColor="backgroundColor" btntext="text" >  </Button> -->
+
+        <!-- <p><Button>dgsfgssdsfdfdgsfdgsdgf</Button></p> -->
+        <!-- <i class="uil uil-arrow-right"></i> -->
+
+
+
+    </div>
+</template>
+
+<script>
+import Button from "./Button.vue";
+import Button from "./Button.vue";
+export default{
+    name: "Promotion",
+    component: {
+        Button,
+    },
+    props: {
+        colorBackground: String,
+        productImages: String,
+        description: String,
+        btnbgcolor: String,
+        btntext: String,
+    },
+    components: { Button }
+}
+</script>
+
+<style>
+    .promotion{
+        width: 512px;
+        height: 300px;
+        border-radius: 10px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .desc{
+        width: 50%;
+        height: 100%;
+        /* width: 271px; 
+        height: 48px; */
+        color: var(--NestMart-TextHeading, #253D4E);
+        font-size: 24px;
+        font-weight: 700;
+        /* text-align: center; */
+        padding: 10%  0 0 8%;
+        /* margin: -220px 0 0 20px */
+        /* position: absolute;
+        top: 265px;
+        left: 30px; */
+    }
+
+    img{
+        position: relative;
+        width: 50%;
+        height: 249px;
+        border-radius: 0 0 10px 10px;
+        margin: 50px 0 0 0;
+        display: flex;
+        object-fit: contain;
+    }
+    /* .buton{
+        position: absolute;
+        padding: 2px;
+
+    } */
+    .btn{
+        position: absolute;
+        top: 20px;
+
+    }
+</style>

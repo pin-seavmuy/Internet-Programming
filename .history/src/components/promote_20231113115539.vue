@@ -1,0 +1,18 @@
+<template>
+    <div>
+        <p>{{ description }}</p>
+        
+    </div>
+</template>
+
+<script>
+export default {
+    setup() {
+        
+    },
+}
+</script>
+
+<style scoped>
+
+</style>
