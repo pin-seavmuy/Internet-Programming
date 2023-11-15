@@ -45,7 +45,7 @@ export default{
     }
     
     .desc{
-        width: 100%;
+        width: 90%;
         height: 100%;
         position: relative;
         color:  #253D4E;

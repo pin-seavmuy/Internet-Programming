@@ -34,7 +34,6 @@ export default{
 
 <style>
     .promotion{
-        position: relative;
         width: 512px;
         height: 300px;
         border-radius: 10px;
@@ -47,13 +46,11 @@ export default{
     .desc{
         width: 100%;
         height: 100%;
-        position: relative;
+        position: absolute;
         color:  #253D4E;
-        font-family: monospace;
         font-size: 24px;
         font-weight: 700;
-        line-height: 32px; 
-        /* font-style: Quicksand; */
+        font-style: Quicksand;
         /* text-align: center; */
         padding: 10%  0 0 8%;
         /* margin: -220px 0 0 20px */
@@ -64,9 +61,7 @@ export default{
 
     img{
         position: relative;
-        right: 0;
-        bottom: 0;
-        width: 50%;
+        width: 70%;
         height: 249px;
         border-radius: 0 0 10px 10px;
         margin: 50px 0 0 0;

@@ -50,7 +50,7 @@ export default{
         position: relative;
         color:  #253D4E;
         font-family: monospace;
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 700;
         line-height: 32px; 
         /* font-style: Quicksand; */

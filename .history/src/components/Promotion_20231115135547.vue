@@ -66,7 +66,7 @@ export default{
         position: relative;
         right: 0;
         bottom: 0;
-        width: 50%;
+        width: 70%;
         height: 249px;
         border-radius: 0 0 10px 10px;
         margin: 50px 0 0 0;

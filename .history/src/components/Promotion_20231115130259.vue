@@ -49,10 +49,9 @@ export default{
         height: 100%;
         position: relative;
         color:  #253D4E;
-        font-family: monospace;
+        font-family: Quicksand;
         font-size: 24px;
         font-weight: 700;
-        line-height: 32px; 
         /* font-style: Quicksand; */
         /* text-align: center; */
         padding: 10%  0 0 8%;

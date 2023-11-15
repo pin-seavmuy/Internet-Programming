@@ -49,11 +49,9 @@ export default{
         height: 100%;
         position: relative;
         color:  #253D4E;
-        font-family: monospace;
         font-size: 24px;
         font-weight: 700;
-        line-height: 32px; 
-        /* font-style: Quicksand; */
+        font-style: Quicksand;
         /* text-align: center; */
         padding: 10%  0 0 8%;
         /* margin: -220px 0 0 20px */
@@ -63,10 +61,10 @@ export default{
     }
 
     img{
-        position: relative;
+        position: absolute;
         right: 0;
         bottom: 0;
-        width: 50%;
+        width: 100%;
         height: 249px;
         border-radius: 0 0 10px 10px;
         margin: 50px 0 0 0;

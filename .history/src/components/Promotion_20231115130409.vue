@@ -52,7 +52,6 @@ export default{
         font-family: monospace;
         font-size: 24px;
         font-weight: 700;
-        line-height: 32px; 
         /* font-style: Quicksand; */
         /* text-align: center; */
         padding: 10%  0 0 8%;
