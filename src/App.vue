@@ -1,7 +1,7 @@
 <template>
-  <div class="app">
-      <router-view />
-  </div>
+    <div class="app">
+        <router-view />
+    </div>
 </template>
 
 <script>
@@ -12,11 +12,11 @@ export default {
         RouterView,
     }
 }
+
 </script>
 
-
-<style >
-  .app {
+<style>
+.app {
     width: 100%;
     height: 100%;
     display: flex;

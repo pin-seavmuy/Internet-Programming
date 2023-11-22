@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 import App from '../App.vue'
 import Page1 from '../views/Page1.vue'
 
-
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
