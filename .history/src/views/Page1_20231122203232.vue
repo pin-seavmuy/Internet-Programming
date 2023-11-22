@@ -118,11 +118,13 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 6px;
-} 
+}
+   
 .popular_product_menu{
     margin-top: 10px;
     
 }  
+
 .product_page1 {
     margin-top: 10px;
     display: flex;

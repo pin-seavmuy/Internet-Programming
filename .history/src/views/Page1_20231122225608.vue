@@ -118,7 +118,8 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 6px;
-} 
+}
+   
 .popular_product_menu{
     margin-top: 10px;
     
