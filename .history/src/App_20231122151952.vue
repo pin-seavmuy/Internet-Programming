@@ -12,6 +12,7 @@ export default {
         RouterView,
     }
 }
+
 </script>
 
 
