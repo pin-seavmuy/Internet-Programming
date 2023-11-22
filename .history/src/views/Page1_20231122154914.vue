@@ -58,7 +58,7 @@
   import MyButton from '../components/Buttons.vue';
 
   import { mapState } from 'pinia';
-  import { useProductStore} from '../stores/ProductStore.js';
+  import { useProductStore} from '../stores/product_store.js';
   
   export default {
       name: 'App',

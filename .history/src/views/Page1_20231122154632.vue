@@ -55,10 +55,14 @@
   
   <script>
   
-  import MyButton from '../components/Buttons.vue';
+  import MyButton from '../components/Button.vue';
+  import Cart from '../components/Cart.vue';
+  import AddVertise from '../components/AddVertise.vue';
+  import Menu from '../components/Menu.vue';
+  import Product from '../components/Product.vue';
 
   import { mapState } from 'pinia';
-  import { useProductStore} from '../stores/ProductStore.js';
+  import { useProductStore} from '../stores/product_store.js';
   
   export default {
       name: 'App',
