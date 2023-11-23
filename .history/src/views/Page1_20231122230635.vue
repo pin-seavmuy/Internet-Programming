@@ -58,7 +58,7 @@
   
   import MyButton from '../components/Buttons.vue';
   import Cart from '../components/Cart.vue';
-  import AddVertise from '../components/Advertise.vue';
+  import AddVertise from '../components/AddVertise.vue';
   import Menu from '../components/Menu.vue';
   import Product from '../components/Product.vue';
 

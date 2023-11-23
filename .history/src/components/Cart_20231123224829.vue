@@ -46,7 +46,7 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     align-items: center;
     border-radius: 10px;
     border: 1px solid #BCE3C9;

@@ -50,7 +50,9 @@ export default {
     align-items: center;
     border-radius: 10px;
     border: 1px solid #BCE3C9;
+
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
     cursor: pointer;
 }
 
@@ -70,7 +72,6 @@ export default {
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    margin: -20px 0 0 0;
     align-items: center;
     text-align: center;
     color: #000000;
@@ -81,7 +82,6 @@ export default {
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
-    margin: 7px 0 0 0;
     align-items: center;
     text-align: center;
     color: #00000087;

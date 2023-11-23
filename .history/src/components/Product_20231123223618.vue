@@ -237,6 +237,7 @@ export default {
     line-height: 15px;
     text-align: center;
     color: #3D3D3D;
+
     margin-top: 10px;
 }
 
@@ -259,6 +260,7 @@ export default {
     line-height: 20px;
     text-align: center;
     color: #3BB77E;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -291,6 +293,7 @@ export default {
     line-height: 18px;
     text-align: center;
     color: #3BB77E;
+    
     cursor: pointer;
     background-color: #DEF9EC;
 }

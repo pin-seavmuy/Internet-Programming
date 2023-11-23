@@ -81,7 +81,7 @@ export default {
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
-    margin: 7px 0 0 0;
+    margin: -5px;
     align-items: center;
     text-align: center;
     color: #00000087;
