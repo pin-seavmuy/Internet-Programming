@@ -34,7 +34,6 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* display: flex; */
 }
 .Button-Box:hover {
   box-shadow: 5px 5px 5px rgba(129, 177, 61, 1);
