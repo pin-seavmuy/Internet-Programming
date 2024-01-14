@@ -41,7 +41,7 @@ export default {
   justify-content: center;
   align-items: center;
   border: 2px solid rgb(154, 185, 110);
-  box-shadow: 5px 5px lightgray;
+  box-shadow: 10px 10px lightgray;
   border-radius: 10px;
   position: relative;
   /* margin-top: 30px; */
@@ -49,7 +49,7 @@ export default {
   /* margin-left: 10px; */
 }
 .Cards-Box:hover {
-  box-shadow: 5px 5px 5px rgb(208, 225, 184);
+  box-shadow: 5px 5px 5px rgba(129, 177, 61, 1);
   transform: translate(5px, 5px);
   cursor: pointer;
 }

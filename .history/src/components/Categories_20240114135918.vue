@@ -28,7 +28,7 @@ export default {
   /* margin-right: 10px;
   margin-left: 10px; */
   border: 2px solid rgba(129, 177, 61, 1);
-  box-shadow: 3px 3px lightgray;
+  box-shadow: 10px 5px lightgray;
   border-radius: 10px;
 }
 .Item-Box:hover {

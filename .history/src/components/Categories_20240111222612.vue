@@ -28,11 +28,11 @@ export default {
   /* margin-right: 10px;
   margin-left: 10px; */
   border: 2px solid rgba(129, 177, 61, 1);
-  box-shadow: 3px 3px lightgray;
+  box-shadow: 10px 10px lightgray;
   border-radius: 10px;
 }
 .Item-Box:hover {
-  box-shadow: 5px 5px 5px rgb(208, 225, 184);
+  box-shadow: 5px 5px 5px rgba(129, 177, 61, 1);
   transform: translate(5px, 5px);
   cursor: pointer;
 }

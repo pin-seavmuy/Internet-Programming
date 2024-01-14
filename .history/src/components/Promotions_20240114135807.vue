@@ -41,7 +41,7 @@ export default {
   justify-content: center;
   align-items: center;
   border: 2px solid rgb(154, 185, 110);
-  box-shadow: 5px 5px lightgray;
+  box-shadow: 5px 10px lightgray;
   border-radius: 10px;
   position: relative;
   /* margin-top: 30px; */
